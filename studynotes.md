@@ -1,4 +1,8 @@
 # Runtime Error and warning
+## Performance
+[WARNING: Performance]
+Validation Performance Warning: [ UNASSIGNED-CoreValidation-Shader-OutputNotConsumed ] Object 0: handle = 0x67022e000000004b, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x609a13b | vertex shader writes to output location 1.0 which is not consumed by fragment shader
+
 ## Layers
 [ERROR: General]
 loader_get_json: Failed to open JSON file C:\Program Files\NVIDIA Corporation\Nsight Systems 2019.4.3\Target-Windows\x86_64\VkLayers\VkLayer_nsight-sys_windows.json
@@ -64,5 +68,9 @@ try the solution mentioned at https://github.com/godotengine/godot/issues/36688
 
 ![image](https://user-images.githubusercontent.com/16042439/148046508-6601030a-2b4a-4125-8f45-bf170ef03b3d.png)
 #### Vulkan\ExplicitLayers
+[Vulkan Ecosystem Components](https://github.com/KhronosGroup/Vulkan-Loader)
+>Vulkan is an explicit API, enabling direct control over how GPUs actually work. As such, Vulkan supports systems that have multiple GPUs, each running with a different driver, or ICD (Installable Client Driver). Vulkan also supports multiple global contexts (instances, in Vulkan terminology). The ICD loader is a library that is placed between a Vulkan application and any number of Vulkan drivers, in order to support multiple drivers and the instance-level functionality that works across these drivers. Additionally, the loader manages inserting Vulkan layer libraries, such as validation layers, between an application and the drivers.
+
+[WHAT IS VULKAN ICD?](https://djang86.blogspot.com/2019/01/what-is-vulkan-icd.html)
 [Brief guide to Vulkan layers](https://renderdoc.org/vulkan-layer-guide.html)
 
