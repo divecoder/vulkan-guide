@@ -1,3 +1,7 @@
+# Notes
+[Descriptor Sets](https://vkguide.dev/docs/chapter-4/descriptors/)
+[Framebuffers](https://vkguide.dev/docs/chapter-1/vulkan_renderpass_code/#framebuffers)
+[VkFence and VkSemaphore](https://vkguide.dev/docs/chapter-1/vulkan_mainloop/)
 # Runtime Error and warning
 ## Performance
 [WARNING: Performance]
