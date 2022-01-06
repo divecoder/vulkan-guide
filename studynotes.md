@@ -80,3 +80,5 @@ try the solution mentioned at https://github.com/godotengine/godot/issues/36688
 [WHAT IS VULKAN ICD?](https://djang86.blogspot.com/2019/01/what-is-vulkan-icd.html)
 [Brief guide to Vulkan layers](https://renderdoc.org/vulkan-layer-guide.html)
 
+# Reference
+[Yet another blog explaining Vulkan synchronization](https://themaister.net/blog/2019/08/14/yet-another-blog-explaining-vulkan-synchronization/)
