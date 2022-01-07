@@ -4,6 +4,11 @@
 [Framebuffers](https://vkguide.dev/docs/chapter-1/vulkan_renderpass_code/#framebuffers)
 
 [VkFence and VkSemaphore](https://vkguide.dev/docs/chapter-1/vulkan_mainloop/)
+
+Using [Shader Storage Buffer](https://vkguide.dev/docs/chapter-4/storage_buffers/) Store all Scenes
+>Uniform buffers are great for small, read only data. But what if you want data you don’t know the size of in the shader? Or data that can be writeable. You use Storage buffers for that. Storage buffers are usually slightly slower than uniform buffers, but they can be much, much bigger. If you want to stuff your entire scene into one buffer, you have to use them. Make sure to profile it to know the performance.
+With storage buffers, you can have an unsized array in a shader with whatever data you want. A common use for them is to store the data of all the objects in the scene.
+
 # Runtime Error and warning
 ## Performance
 [WARNING: Performance]
